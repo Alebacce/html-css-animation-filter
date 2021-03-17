@@ -73,11 +73,38 @@
     width: 500px;
 }
 
+.ex-6-img:hover {
+    filter: grayscale(1);
+}
+
+/*Esercizio 7*/
+.ex-7-img {
+    transition: filter 2s;
+}
+
+.ex-7-img:hover {
+    filter: grayscale(0.5) sepia(0.4);
+}
+
+/*Esercizio 8*/
+.ex-8-img:hover {
+    filter: saturate(0.9) contrast(0.4);
+    border-radius: 50%;
+}
+
+/*Esercizio 9*/
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
 }
 
+.ex-9-img:hover {
+    filter: grayscale(0.9) contrast(0.8);
+    border-radius: 50%;
+    transform: scale(1.5);
+}
+
+/*Esercizio 10*/
 .ex-10-icon {
     font-size: 60px;
 }
